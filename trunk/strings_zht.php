@@ -4,28 +4,28 @@ define(S_HOME, '主頁');											//Forwards to home page
 define(S_ADMIN, '管理入口');									//Forwards to Management Panel
 define(S_RETURN, '返回');										//Returns to image board
 define(S_POSTING, '發帖模式: 回復');							//Prints message in red bar atop the reply screen
-define(S_NOTAGS, '允許使用 HTML 標籤.');						//Prints message on Management Board
+define(S_NOTAGS, '允許使用 HTML 標記.');						//Prints message on Management Board
 define(S_NAME, '姓名');											//Describes name field
 define(S_EMAIL, 'E-mail');										//Describes e-mail field
 define(S_SUBJECT, '標題');										//Describes subject field
 define(S_SUBMIT, '提交');										//Describes submit button
 define(S_COMMENT, '評論');										//Describes comment field
-define(S_UPLOADFILE, '文件');									//Describes file field
+define(S_UPLOADFILE, '檔案');									//Describes file field
 define(S_NOFILE, '沒有檔案');										//Describes file/no file checkbox
 define(S_DELPASS, '密碼');										//Describes password field
 define(S_DELEXPL, '(刪除檔案時使用的密碼)');						//Prints explanation for password box (to the right)
 define(S_RULES, '<ul><li>支持的檔案類型: GIF, JPG, PNG</li>
-<li>文件大小上限 '.MAX_KB.' KB.</li>
+<li>檔案大小上限 '.MAX_KB.' KB.</li>
 <li>大於 '.MAX_W.'x'.MAX_H.' 圖元的圖片將顯示為縮略圖.</li></ul>');				//Prints rules under posting section
 define(S_REPORTERR, '失敗: 未找到回復.');						//Returns error when a reply (res) cannot be found
 define(S_THUMB, '縮略圖顯示, 點擊圖片顯示原始大圖.');			//Prints instructions for viewing real source
-define(S_PICNAME, '文件 : ');									//Prints text before upload name/link
+define(S_PICNAME, '檔案 : ');									//Prints text before upload name/link
 define(S_REPLY, '回復');										//Prints text for reply link
 define(S_OLD, '刪除標記 (老).');								//Prints text to be displayed before post is marked for deletion, see: retention
 define(S_RESU, 'Post');											//Prints post?
 define(S_ABBR, ' 張貼被忽略. 點擊回復顯示.');					//Prints text to be shown when replies are hidden
 define(S_REPDEL, '刪除張貼 ');									//Prints text next to S_DELPICONLY (left)
-define(S_DELPICONLY, '只文件');									//Prints text next to checkbox for file deletion (right)
+define(S_DELPICONLY, '只檔案');									//Prints text next to checkbox for file deletion (right)
 define(S_DELKEY, '密碼 ');										//Prints text next to password field for deletion (left)
 define(S_DELETE, '刪除');										//Defines deletion button's name
 define(S_PREV, '前');											//Defines previous button
@@ -78,7 +78,7 @@ define(S_MANASUB, '提交');										//Defines name for submit button in Manager 
 define(S_DELLIST, '管理面板');									//Prints sub-heading of Management Panel
 define(S_ITDELETES, '刪除');									//Defines for deletion button in Management Panel
 define(S_MDRESET, '重置');										//Defines name for field reset button in Management Panel
-define(S_MDONLYPIC, '只文件');									//Sets whether or not to delete only file, or entire post/thread
+define(S_MDONLYPIC, '只檔案');									//Sets whether or not to delete only file, or entire post/thread
 define(S_MDTABLE1, '<th>刪除?</th><th>張貼編號 No.</th><th>時間</th><th>主題</th>');			//Explains field names for Management Panel (Delete?->Subject)
 define(S_MDTABLE2, '<th>姓名</th><th>評論</th><th>主機</th><th>大小<br>(位元組)</th><th>md5</th><th>回復 #</th><th>No idea</th><th>No idea</th>');						  //Explains names for Management Panel (Name->md5)
 define(S_RESET, '重置');										//Sets name for field reset button (global)
