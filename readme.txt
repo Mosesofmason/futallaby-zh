@@ -1,3 +1,9 @@
+See Wiki page for installation.
+
+
+---
+Original Readme:
+
 Futallaby 040103
 
 For setup instructions and latest version, please visit:
