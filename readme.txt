@@ -1,5 +1,5 @@
 See Wiki page for installation.
-
+https://github.com/Mosesofmason/futallaby-zh/wiki/Chinese-translation-for-Futallaby
 
 ---
 Original Readme:
